@@ -60,7 +60,6 @@ Download the VisA dataset from [here](https://github.com/amazon-science/spot-dif
 |-- data
   |-- VisA_pytorch
 ​    |-- 1cls
-​    |-- json_vis_decoder
 ​    |-- train.json
 ​    |-- test.json
 ```
