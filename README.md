@@ -13,7 +13,7 @@ obtains competitive detection performance.
 
 ## Overview of MoEAD
 
-![image-20240919133617181](\Images\Overview_MoEAD.png)
+![image-20240919133617181](Images/Overview_MoEAD.png)
 
 
 
