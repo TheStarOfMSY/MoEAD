@@ -1,6 +1,7 @@
 # MoEAD
 
 Code of MoEAD: A Parameter-efficient Model for Multi-class Anomaly Detection, accepted by ECCV 2024.
+article:https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11465_ECCV_2024_paper.php
 
 ## Updates
 - 26.09.2024: Code has been released.
