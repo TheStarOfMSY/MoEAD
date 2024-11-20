@@ -5,6 +5,7 @@ article:https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11465_ECCV_2024_p
 
 ## Updates
 - 26.09.2024: Code has been released.
+- 20.11.2024: Some code errors have been corrected.
 
 
 ## Abstract
