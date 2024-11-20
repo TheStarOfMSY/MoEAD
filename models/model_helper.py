@@ -73,7 +73,8 @@ class ModelHelper(nn.Module):
                 np.save(os.path.join(save_dir, filename_ + ".npy"), feature_rec_np)
 
         if self.time == 0:
-            flops, macs, params = calculate_flops(list(self.children())[2], input_shape=(1, 272, 14, 14))
+            _, h, p, q = input["feature_align"][0].unsqueeze(0).shape
+            flops, macs, params = calculate_flops(list(self.children())[2], input_shape=(1, h, p, q))
             self.time = 1
 
         input.update(output)
