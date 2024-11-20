@@ -5,7 +5,7 @@ article:https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11465_ECCV_2024_p
 
 ## Updates
 - 26.09.2024: Code has been released.
-- 20.11.2024: Some code errors have been corrected.
+- 20.11.2024: Some code mistakes have been corrected.
 
 
 ## Abstract
@@ -92,7 +92,7 @@ Results and Checkpoints:
 
 | Model | Datasets | Detection AUROC | Localization AUROC |                         Checkpoints                          |
 | :---: | :------: | :-------------: | :----------------: | :----------------------------------------------------------: |
-| MoEAD | MVTec-AD |      97.9       |        96.9        | [link](https://drive.google.com/drive/folders/15KwqzbHqUQr4EbP2Fqsq3F17OmSrX2zE?usp=drive_link) |
+| MoEAD | MVTec-AD |      97.7       |        97.0        | [link](https://drive.google.com/drive/folders/15KwqzbHqUQr4EbP2Fqsq3F17OmSrX2zE?usp=drive_link) |
 | MoEAD |   VisA   |      93.1       |        98.7        | [link](https://drive.google.com/drive/folders/12RMOmMGszidTR0S9zE0FPe-lEGpyfehf?usp=drive_link) |
 
 
