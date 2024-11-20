@@ -49,14 +49,13 @@ class MoEAD(nn.Module):
         self,
         inplanes,
         instrides,
-        # feature_size = [14, 14],
+        feature_size,
         feature_jitter,
         neighbor_mask,
         hidden_dim,
         pos_embed_type,
         save_recon,
         initializer,
-        feature_size = [14, 14],
         **kwargs,
     ):
         super().__init__()
