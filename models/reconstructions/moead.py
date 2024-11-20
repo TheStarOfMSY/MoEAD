@@ -244,7 +244,7 @@ class Wide_Transformer(nn.Module):
                 key_padding_mask=None,
             )[0]
             tgt = tgt + self.dropout1(tgt2)
-            tgt = self.norms[2*i](tgt)
+            tgt = self.norms[4*i](tgt)
 
             tgt2 = self.share_multihead_attn(
                 query=self.with_pos_embed(tgt, pos_embed),
@@ -254,13 +254,13 @@ class Wide_Transformer(nn.Module):
                 key_padding_mask=None,
             )[0]
             tgt = tgt + self.dropout2(tgt2)
-            tgt = self.norms[2*i+1](tgt)
+            tgt = self.norms[4*i+1](tgt)
 
             output_decoder = self.moe_ffn(tgt)
-            output_decoder = self.norms[2*i+2](output_decoder)
+            output_decoder = self.norms[4*i+2](output_decoder)
 
             output_decoder = self.moe_ffn_2(output_decoder)
-            output_decoder = self.norms[2*i+3](output_decoder)
+            output_decoder = self.norms[4*i+3](output_decoder)
             if self.return_intermediate:
                 intermediate.append(output_decoder)
 
