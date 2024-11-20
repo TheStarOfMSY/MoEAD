@@ -108,6 +108,7 @@ net:
         dropout: 0.1
         activation: relu
         normalize_before: False
+        feature_size: [14,14]
         feature_jitter:
           scale: 20.0
           prob: 1.0
