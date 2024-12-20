@@ -93,7 +93,6 @@ Results and Checkpoints:
 | Model | Datasets | Detection AUROC | Localization AUROC |                         Checkpoints                          |
 | :---: | :------: | :-------------: | :----------------: | :----------------------------------------------------------: |
 | MoEAD | MVTec-AD |      97.7       |        97.0        | [link](https://drive.google.com/drive/folders/15KwqzbHqUQr4EbP2Fqsq3F17OmSrX2zE?usp=drive_link) |
-| MoEAD |   VisA   |      93.1       |        98.7        | [link](https://drive.google.com/drive/folders/12RMOmMGszidTR0S9zE0FPe-lEGpyfehf?usp=drive_link) |
 
 
 
