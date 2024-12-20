@@ -95,7 +95,7 @@ net:
         outstrides: [16]
     - name: reconstruction
       prev: neck
-      type: models.reconstructions.MoEAD
+      type: models.reconstructions.MoEAD_O
       kwargs: 
         pos_embed_type: learned
         hidden_dim: 256
